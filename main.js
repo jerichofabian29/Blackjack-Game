@@ -37,7 +37,6 @@ renderGame = () => {
 }
 
 newCard = () => {
-    console.log("Drawing a new card from the deck!");
     let card = Math.floor(Math.random() * 12); // random num between 0 and 11
 
 
