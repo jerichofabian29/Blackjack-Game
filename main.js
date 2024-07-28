@@ -1,6 +1,6 @@
 let firstCard = 1;
 let secondCard = 1;
-let sum = firstCard + secondCard;
+let total = firstCard + secondCard;
 let cards = [firstCard, secondCard]; // storage for cards
 
 let hasBlackJack = false;
@@ -8,7 +8,7 @@ let isAlive = true;
 
 let message = ""
 let messageEL = document.querySelector("#message-el");
-let sumEl = document.querySelector("#sum-el");
+let totalEl = document.querySelector("#total-el");
 let cardsEl = document.querySelector("#cards-el");
 let startGame = document.querySelector("#startGame");
 
@@ -18,13 +18,14 @@ startGame = () => {
 
 renderGame = () => {
     //render out firstCard and secondCard
-    sumEl.textContent = "Sum: " + sum;
+ 
+    totalEl.textContent = "Total: " + total;
     cardsEl.textContent = "Cards: "   + " " + cards;
 
-    if(sum <= 20){
+    if(total <= 20){
         message = "Do you want to draw a new card?";
     } 
-    else if(sum === 21){
+    else if(total === 21){
         message = "You've got Blackjack!";
         hasBlackJack = true;
     }
@@ -40,7 +41,7 @@ newCard = () => {
     let card = Math.floor(Math.random() * 12); // random num between 0 and 11
 
 
-    sum += card
+    total += card
     cards.push(card);
     renderGame();
 }
@@ -50,9 +51,10 @@ resetGame = () => {
     messageEL.textContent = message;
 
 
-    cards = [];
-    sumEl.textContent = "Sum: ";
-    cardsEl.textContent = "Cards: "   + " " + cards;
+    cards = [firstCard, secondCard];
+    total = firstCard + secondCard;
+    totalEl.textContent = "Total: ";
+    cardsEl.textContent = "Cards: ";
 }
 
 
