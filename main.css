@@ -10,17 +10,18 @@ body{
     background-size: cover;
     color: white;
     font-weight: bold;
+    gap:20px;
 }
 
 h1{
     color: goldenrod;
-    font-size: 10vw;
+    font-size: calc(10vw + 10px);
     margin-bottom: 0;
 }
 
 #message-el{
     font-style: italic;
-    font-size: 3vw;
+    font-size: 25px;
 }
 
 button{
@@ -31,6 +32,8 @@ button{
     font-weight: 1000;
     border: none;
     border-radius: 8px;
+    width: 200px;
+    height: 50px;
 }
 
 p{
