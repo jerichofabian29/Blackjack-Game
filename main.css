@@ -17,11 +17,12 @@ h1{
     color: goldenrod;
     font-size: calc(10vw + 10px);
     margin-bottom: 0;
+    display: block;
 }
 
 #message-el{
     font-style: italic;
-    font-size: 25px;
+    font-size: calc(2vw + 10px);
 }
 
 button{
