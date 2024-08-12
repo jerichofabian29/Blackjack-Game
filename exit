@@ -1,0 +1,53 @@
+[33mcommit 8f1403c275fa663acf1594a0fe28991c0ec7f08f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jericho Fabian <jerichofabian8@gmail.com>
+Date:   Sun Jul 28 22:40:13 2024 +0800
+
+    responsive message-el
+
+[33mcommit 260aee3635da33b8a77339e9bde1072211f84a62[m
+Author: Jericho Fabian <jerichofabian8@gmail.com>
+Date:   Sun Jul 28 22:27:09 2024 +0800
+
+    added dynamic buttons
+
+[33mcommit 93e974ff18419a3f00e5bc4c9ef98284d86138e9[m
+Author: Jericho Fabian <jerichofabian8@gmail.com>
+Date:   Sun Jul 28 21:53:25 2024 +0800
+
+    removed the console log
+
+[33mcommit 9c166554de6f0ec36a71e37bd38086d2f9bdb9f0[m
+Author: Jericho Fabian <jerichofabian8@gmail.com>
+Date:   Sun Jul 28 21:45:25 2024 +0800
+
+    Added a reset button and replaced the word Sum to Total
+
+[33mcommit 3bed3f7cf41ae976b429f01754305b30868c6adb[m
+Author: Jericho Fabian <jerichofabian8@gmail.com>
+Date:   Sun Jul 28 21:34:47 2024 +0800
+
+    completed all functionalities
+
+[33mcommit 5514afa659d662ded8e92b82e21d51a706b3a69c[m
+Author: Jericho Fabian <jerichofabian8@gmail.com>
+Date:   Sun Jul 28 20:32:55 2024 +0800
+
+    linked the text contents to JS
+
+[33mcommit e69ebd091658876c4f3541ed9800258672819132[m
+Author: Jericho Fabian <jerichofabian8@gmail.com>
+Date:   Sun Jul 28 20:08:39 2024 +0800
+
+    styled the UI and added some elements
+
+[33mcommit 2a75b9cd73d8fab60ee4eac08bb2b3db90e4f71c[m
+Author: Jericho Fabian <jerichofabian8@gmail.com>
+Date:   Sun Jul 28 19:02:18 2024 +0800
+
+    creation of files
+
+[33mcommit c530e06caf0a4469fe114b2ef2c9c2cce4a729b7[m
+Author: Jericho Fabian <jerichofabian8@gmail.com>
+Date:   Sun Jul 28 19:00:18 2024 +0800
+
+    Initial commit

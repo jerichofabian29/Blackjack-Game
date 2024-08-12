@@ -3,7 +3,7 @@ let secondCard = 1;
 let total = firstCard + secondCard;
 let cards = [firstCard, secondCard]; // storage for cards
 
-let message = ""
+let message = "";
 let messageEL = document.querySelector("#message-el");
 let totalEl = document.querySelector("#total-el");
 let cardsEl = document.querySelector("#cards-el");
@@ -36,8 +36,6 @@ renderGame = () => {
         newCardbtn.style.display = "none";
         startGamebtn.style.display = "none";
         restartGamebtn.style.display = "block";
-
-
     }
     else {
         message = "You're out of the game!";
@@ -53,7 +51,6 @@ newCard = () => {
 
     let card = Math.floor(Math.random() * 12); // random num between 0 and 11
 
-
     total += card
     cards.push(card);
     renderGame();
@@ -63,7 +60,6 @@ resetGame = () => {
     message = "Want to play a round?";
     messageEL.textContent = message;
 
-
     cards = [firstCard, secondCard];
     total = firstCard + secondCard;
     totalEl.textContent = "Total: ";
@@ -72,7 +68,6 @@ resetGame = () => {
     startGamebtn.style.display = "block";
     newCardbtn.style.display = "none";
     restartGamebtn.style.display = "none";
-
 }
 
 
